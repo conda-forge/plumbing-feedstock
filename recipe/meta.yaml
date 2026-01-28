@@ -1,4 +1,4 @@
-{% set version = "2.11.3" %}
+{% set version = "2.11.4" %}
 
 package:
   name: plumbing
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/p/plumbing/plumbing-{{ version }}.tar.gz
-  sha256: 4419d2c146b56a7f36ebf52ebbf9a45bc8f32f45bc4f7ee697449aafbd032820
+  sha256: 1cacd04ba80df9e6a9224e91581dc65558cfbcb75491e4adf4e66a5ca4aac9f2
 
 build:
   noarch: python
